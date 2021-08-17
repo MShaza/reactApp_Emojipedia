@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: rgba(12,236,221,0.4);
+}
+#main-heading{
+    font-family: 'Oswald', sans-serif;
+    width: 50%;
+    text-align: center;
+    margin: 5% auto;
+    padding: 3%;
+    font-size: 3.5rem;
+}
+.dictionary{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+.dictionary > .term {
+    text-align: center;
+    max-width: 20rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 100ms ease-in-out;
+    margin: 1%;
+    border-radius: 3%;
+  }
+  .emoji-img{
+      font-size: 3rem;
+      display: block;
+  }
+  .emoji-title{
+    font-family: 'Abril Fatface', cursive;
+    line-height: 3;
+    color: #C400FF;
+  }
+  .emoji-description{
+    line-height: 1.4;
+  }
+  dd {
+    letter-spacing: 0.13em;
+  }
